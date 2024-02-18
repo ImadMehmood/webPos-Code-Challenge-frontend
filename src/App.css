@@ -1,0 +1,33 @@
+body {
+  background: var(
+    --fdfdfd,
+    linear-gradient(
+      135deg,
+      rgba(3, 79, 148, 0.97) 0%,
+      rgba(24, 174, 191, 0.74) 100%
+    )
+  );
+}
+
+.gradientC {
+  background: var(
+    --fdfdfd,
+    linear-gradient(
+      135deg,
+      rgba(3, 79, 148, 0.97) 0%,
+      rgba(24, 174, 191, 0.74) 100%
+    )
+  );
+}
+
+.gradientHeader {
+  background: var(
+    --fdfdfd,
+    linear-gradient(
+      135deg,
+      rgba(3, 79, 148, 0.97) 0%,
+      rgba(4, 83, 92, 0.74) 100%
+    )
+  );
+}
+

@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ok yh fgfg*/
+
+  
+  .page_container {
+    @apply container mx-auto px-2 sm:px-8;
+  }
+  h1 {
+    @apply  main_heading ;
+  }
+  h2 {
+    @apply main_heading2 capitalize;
+  }
+  .main_heading {
+    @apply  lg:text-[40px] text-[28px] ;
+  }
+  .main_heading2 {
+    @apply font-normal lg:text-3xl text-2xl ;
+  }
+  h3 {
+    @apply sub_heading;
+  }
+  .sub_heading {
+    @apply lg:text-[22px] text-lg font-semibold  capitalize;
+  }
+  p {
+    @apply font-medium lg:text-base text-sm leading-normal ;
+  }
+
+
